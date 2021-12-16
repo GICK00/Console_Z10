@@ -33,9 +33,9 @@ namespace Console_Z10
         static void CreateFile(string path)
         {
             StreamWriter t1 = new StreamWriter(new FileStream(path + "\\K1\\t1.txt", FileMode.Create));
-            t1.WriteLine("Иванов Иван Иванович, 1965 года рождения, место жительства г. Саратов");
+            t1.WriteLine("Утин Дмитрий Сергеевич, 2003 года рождения, место жительства г.Радужный");
             StreamWriter t2 = new StreamWriter(new FileStream(path + "\\K1\\t2.txt", FileMode.Create));
-            t2.WriteLine("Петров Сергей Федорович, 1966 года рождения, место жительства г.Энгельс");
+            t2.WriteLine("Утина Юлия Ивановна, 1983 года рождения, место жительства г.Радужный");
             StreamWriter t3 = new StreamWriter(new FileStream(path + "\\K2\\t3.txt", FileMode.Create));
             t1.Close();
             t2.Close();
